@@ -1,0 +1,1 @@
+This folder contains structure files (usually `.cif` format from the [International Zeolite Association (IZA)](https://america.iza-structure.org/IZA-SC/ftc_table.php) in addition to some input scripts to perform geometry and frequency calculations.
