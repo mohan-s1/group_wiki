@@ -28,6 +28,8 @@ When you log onto the cluster -- whether it be through FastX, Open OnDemand, or 
 
 The reason not to submit jobs on login nodes is that it will slow things down for everyone. The analogy is asking a waiter to cook: if the waiter has to take orders and cook the meals, it will be very difficult for everyone else to place their orders. Moreover, the waiter probably hasn't trained to cook, so the food will be slowly (and likely improperly) prepared. In this analogy, the waiter is a login node while a slurm script is an order to goes to a chef (a `compute node`) that can appropriately handle the request.
 
+To actually submit a job, you will open a terminal if using FastX or OOD (you're already in a terminal if you ssh in) then use the command, `sbatch name.slurm` to properly run a job.
+
 # UVA RC Services
 The UVA Research Computing (RC) staff are generally great, and there are a couple things they do of note.
 
